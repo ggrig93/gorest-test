@@ -1,0 +1,48 @@
+.ContactList { 
+  overflow: scroll;
+  height: 70vh;
+  -webkit-box-shadow: 0px 0px 5px -2px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 5px -2px rgba(255,255,255,1);
+  box-shadow: 0px 0px 5px -2px rgba(255,255,255,1);  
+}
+
+.ContactList-row {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  align-content: center;
+}
+
+table {
+  width: 100%;
+}
+
+.list-avatar {
+  width: 50px;
+  height: auto;
+}
+
+table td,
+table th {
+  color: #000000;
+  padding: 10px;
+}
+
+ 
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+table td:last-child {
+  font-size: 0.95em;
+  line-height: 1.4;
+  text-align: left;
+}
+table th {
+  background-color: rgba(255, 255, 255, 0.40);
+  font-weight: 300;
+  padding: 15px 20px;
+}
+table tr {
+  background-color: rgba(255, 255, 255, 0.65);
+}

@@ -1,0 +1,2 @@
+export const GET_ALL_DATA = "GET_ALL_DATA"; 
+export const UPDATE_USERS_STATE = "UPDATE_USERS_STATE";

@@ -1,0 +1,13 @@
+.ListHeader {
+  background-color: #ebe5e58e;
+}
+
+.ContactList-head {
+  padding: 20px;
+  color: #000000;
+  flex: 1; 
+}
+
+.add-user_btn {
+  cursor: pointer;
+}

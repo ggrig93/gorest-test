@@ -1,0 +1,40 @@
+.Home {
+}
+.pagination {
+  display: flex;
+  margin: 15px 0;
+  justify-content: center;
+  padding: 51px;
+}
+
+.active {
+  background: white;
+}
+
+.page {
+  cursor: pointer;
+  transition: 0.3s;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  display: flex;
+}
+
+.page-link {
+  padding: 10px 20px; 
+  outline: none;
+
+}
+
+.page:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.prev-btn,
+.next-btn {
+  padding: 10px;
+}
+
+.break-me {
+  padding: 5px;
+  /* background: red; */
+}
